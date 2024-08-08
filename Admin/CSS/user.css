@@ -1,0 +1,121 @@
+#user-detail-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgb(0, 0, 0,0.2);
+}
+#user-detail-container {
+      color: #000;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 30%;
+      height: 85%;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 10px;
+}
+#user-detail-container #closeUserDetail {
+      position: absolute;
+      left: 92%;
+      top: 2%;
+      cursor: pointer;
+      background-color: white;
+      border: none;
+      font-size: 24px;
+      color: #000;
+      transition: 0.2s;
+}
+#user-detail-container #closeUserDetail:hover {
+      color: #ff0000;
+}
+#user-detail-container #user-detail-title {
+      text-align: center;
+      font-size: 25px;
+      color: #000000;
+      margin-bottom: 20px;
+}
+#user-detail p {
+      font-size: 21px;
+      margin-bottom: 15px;
+}
+#user-detail input {
+      width: 200px;
+      height: 25px;
+      padding-left: 15px;
+      border-radius: 4px;
+      border: 1px solid #000;
+}
+#user-detail button {
+      border-radius: 4px;
+}
+#suaThongTinChiTiet {
+      height: 30px;
+      padding: 0 30px 0 30px;
+}
+#suaThongTinChiTiet:hover {
+      background-color: red;
+      color: white;
+}
+#user-change-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgb(0, 0, 0,0.2);
+}
+#user-change-container {
+      color: #000;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 30%;
+      height: 85%;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 10px;
+}
+#user-change-container #closeUserChange {
+      position: absolute;
+      left: 92%;
+      top: 2%;
+      cursor: pointer;
+      background-color: white;
+      border: none;
+      font-size: 24px;
+      color: #000;
+      transition: 0.2s;
+}
+#user-change-container #closeUserChange:hover {
+      color: #ff0000;
+}
+#user-change-container #user-change-title {
+      text-align: center;
+      font-size: 25px;
+      color: #000000;
+      margin-bottom: 20px;
+}
+
+#user-change p {
+      font-size: 21px;
+      margin-bottom: 15px;
+}
+#user-change input {
+      width: 200px;
+      height: 25px;
+      padding-left: 15px;
+      border-radius: 4px;
+      border: 1px solid #000;
+}
+#user-change button {
+      border-radius: 4px;
+}

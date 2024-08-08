@@ -1,0 +1,98 @@
+#product-info-modal{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgb(0, 0, 0,0.2);
+      display: none;
+}
+#product-info-container {
+      z-index: 20;
+      color: #000;
+      position: relative;
+      left: 50%;
+      top: 45%;
+      transform: translate(-50%,-50%);
+      width: 800px;
+      height: 430px;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 10px;
+}
+#product-info-container #closeProductInfo {
+      position: absolute;
+      left: 96.5%;
+      top: 2%;
+      cursor: pointer;
+      background-color: white;
+      border: none;
+      font-size: 22px;
+      color: #000;
+      transition: 0.2s;
+}
+#product-info-container #closeProductInfo:hover{
+      color: #ff0000;
+}
+
+#product-info-container #product-info-flex {
+      display: flex;
+      justify-content: space-between;
+}
+/*? Left */
+#product-info-container #product-info-image{
+      padding: 20px;
+}
+#product-info-container #product-info-image img {
+      width: 350px;
+      height: 400px;
+}
+/*? Right */
+#product-info-container #product-info-detail {
+      width: 400px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+#product-info-container #product-info-detail h3 {
+      color: #000;
+      font-size: 24px;
+}
+#product-info-container #product-info-detail p {
+      color: #000;
+      font-size: 20px;
+}
+#user-page-quantity {
+      border: none;
+      margin: 0;
+      font-size: 18px;
+      width: 50px;
+      text-align: center;
+}
+#product-info-quantityup, #product-info-quantitydown {
+      border: none;
+      margin: 0;
+      display: inline-block;
+      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      background-color: #000000;
+      color: white;
+      margin-bottom: 20px;
+  }
+
+#product-info-container #product-info-detail #product-info-add-button {
+      width: 100%;
+      height: 35px;
+      cursor: pointer;
+      border: none;
+      border-radius: 3px;
+      background-color: black;
+      color: white;
+}
+#product-info-container #product-info-detail #product-info-add-button:hover {
+      background-color: rgb(59, 59, 59);
+}

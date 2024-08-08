@@ -1,0 +1,21 @@
+#product-change h3 {
+      margin-bottom: 20px;
+}
+#product-change h3 input,select{
+      min-width: 300px;
+      padding: 7px;
+}
+#productCreate h3 {
+      margin-bottom: 20px;
+}
+#productCreate h3 input,select{
+      min-width: 300px;
+      padding: 7px;
+}
+#productImport h3 {
+      margin-bottom: 20px;
+}
+#productImport h3 input,select{
+      min-width: 300px;
+      padding: 7px;
+}

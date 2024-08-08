@@ -1,0 +1,138 @@
+#cart-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgb(0, 0, 0,0.2);
+}
+#cart-container {
+      color: #000;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 85%;
+      height: 90%;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 10px;
+}
+#cart-container #closeCart {
+      position: absolute;
+      left: 97.5%;
+      top: 2%;
+      cursor: pointer;
+      background-color: white;
+      border: none;
+      font-size: 22px;
+      color: #000;
+      transition: 0.2s;
+}
+#cart-container #closeCart:hover {
+      color: #ff0000;
+}
+#cart-container #cart-title {
+      text-align: center;
+      font-size: 25px;
+      color: #000000;
+}
+#cart-list-products {
+      width: 100%;
+      height: 80%;
+      overflow: auto;
+}
+#cart-list-products-table-thead {
+      width: 100%;
+}
+#cart-list-products-table-thead th {
+      text-align: center;
+      font-size: 19px;
+      width: 110px;
+}
+#cart-list-products-table {
+      width: 100%;
+}
+#cart-list-products-table td {
+      text-align: center;
+      width: 110px;
+}
+#cart-list-products-table td img {
+      width: 100px;
+}
+#cart-quantity {
+      border: none;
+      margin: 0;
+      font-size: 18px;
+      width: 50px;
+      text-align: center;
+}
+#cart-quantityup, #cart-quantitydown {
+      border: none;
+      margin: 0;
+      display: inline-block;
+      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      background-color: #000000;
+      color: white;
+  }
+#cart-product-delete {
+      border: none;
+      margin: 0;
+      display: inline-block;
+      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      background-color: #000000;
+      color: white;
+}
+#cart-options {
+      display: flex;
+      width: 100%;
+      height: 40px;
+      justify-content: end;
+      text-align: center;
+}
+#cart-options span {
+      font-size: 22px;
+      font-weight: 600;
+}
+#cart-phuong-thuc-thanh-toan {
+      width: 200px;
+      border-radius: 4px;
+      height: 35px;
+      margin-right: 15px;
+}
+#cart-total-bill {
+      font-size: 24px;
+}
+#cart-delete-all, #cart-buy, #cart-order {
+      border: none;
+      margin: 0 20px 0 20px;
+      font-size: 20px;
+      width: 120px;
+      height: 40px;
+      cursor: pointer;
+      background-color: #000000;
+      color: white;
+}
+#cart-order:hover { 
+      border: 1px solid #000000;
+      background-color: #00ff00;
+      color: #000000;
+}
+#cart-delete-all:hover {
+      border: 1px solid #000000;
+      background-color: #00ff00;
+      color: #000000;
+}
+#cart-buy:hover {
+      border: 1px solid #000000;
+      background-color: #00ff00;
+      color: #000000;
+}

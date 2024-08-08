@@ -1,0 +1,205 @@
+.error {
+      color: #ff0000;
+      display: none;
+}
+/*! --------------------------------- Login --------------------------------- */
+#login-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgb(0, 0, 0,0.2);
+      display: none;
+}
+#login-container {
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 350px;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 10px;
+}
+#login-container h3 {
+      color: #5c5a5a;
+}
+#login-container #close-login {
+      cursor: pointer;
+      font-size: 20px;
+      position: absolute;
+      left: 93%;
+      top: 1%;
+      transition: 0.2s;
+}
+#login-container #close-login:hover {
+      color: #ff0000;
+}
+#login-container img {
+      align-items: center;
+      width: 150px;
+}
+#login-container input {
+      margin-top: 5px;
+      margin-bottom: 10px;
+}
+#login-container input[type="text"] {
+      box-sizing: border-box;
+      padding: 5px;
+      border-radius: 4px;
+      width: 100%;
+      height: 35px;
+      border: 1px solid #cfcfcf;
+}
+#login-container input[type="password"] {
+      box-sizing: border-box;
+      padding: 5px;
+      border-radius: 4px;
+      width: 100%;
+      height: 35px;
+      border: 1px solid #cfcfcf;
+}
+#login-container input[type="text"]:focus {
+      border: none;
+      outline: 2px solid #676767;
+}
+#login-container input[type="password"]:focus {
+      border: none;
+      outline: 2px solid #676767;
+}
+#login-container #login-submit {
+      cursor: pointer;
+      border-radius: 4px;
+      border: none;
+      width: 100%;
+      height: 35px;
+      margin: 10px 0;
+      background-color: #000000;
+      color: white;
+      transition: 0.2s;
+      font-size: 16px;
+}
+#login-container #login-submit:hover {
+      border: 1px solid #000000;
+      background-color: #00ff00;
+      color: #000000;
+}
+#login-container button {
+      cursor: pointer;
+      border-radius: 4px;
+      border: 1px solid #000000;
+      width: 100%;
+      height: 35px;
+      margin: 10px 0;
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      transition: 0.2s;
+      font-size: 16px;
+}
+#login-container button:hover {
+      background-color: #11ff00;
+      color: rgb(0, 0, 0);
+}
+            /*! --------------------------------- Signin --------------------------------- */
+#signin-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: rgb(0, 0, 0,0.2);
+      display: none;
+}
+#signin-container {
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      width: 350px;
+      padding: 10px 20px;
+      background-color: white;
+      border-radius: 10px;
+}
+#signin-container h3 {
+      color: #5c5a5a;
+}
+#signin-container #close-signin {
+      cursor: pointer;
+      font-size: 20px;
+      position: absolute;
+      left: 93%;
+      top: 1%;
+      transition: 0.2s;
+}
+#signin-container #close-signin:hover {
+      color: #ff0000;
+}
+#signin-container img {
+      align-items: center;
+      width: 150px;
+}
+#signin-container input {
+      margin-top: 5px;
+      margin-bottom: 10px;
+}
+#signin-container input[type="text"],input[type="password"] {
+      box-sizing: border-box;
+      padding: 5px;
+      border-radius: 4px;
+      width: 100%;
+      height: 30px;
+      border: 1px solid #cfcfcf;
+}
+#signin-container input[type="text"]:focus,input[type="password"]:focus {
+      border: none;
+      outline: 2px solid #0492ff;
+}
+#signin-container input[type="radio"] {
+      font-size: 17px;
+      width: 20px;
+}
+#signin-container input[type=date] {
+      border-radius: 4px;
+      border: 1px solid #676767;
+      height: 30px;
+      width: 100%;
+      font-size: 15px;
+      box-sizing: border-box;
+      padding: 5px;
+}
+#signin-container #signin-submit {
+      cursor: pointer;
+      border-radius: 4px;
+      border: none;
+      width: 100%;
+      height: 35px;
+      margin: 10px 0;
+      background-color: #000000;
+      color: white;
+      transition: 0.2s;
+      font-size: 16px;
+}
+#signin-container #signin-submit:hover {
+      border: 1px solid #000000;
+      background-color: #00ff00;
+      color: #000000;
+}
+#signin-container button {
+      cursor: pointer;
+      border-radius: 4px;
+      border: 1px solid #000000;
+      width: 100%;
+      height: 35px;
+      margin: 10px 0;
+      background-color: white;
+      color: #000000;
+      transition: 0.2s;
+      font-size: 16px;
+}
+#signin-container button:hover {
+      background-color: #1aff00b1;
+      color: white;
+}
