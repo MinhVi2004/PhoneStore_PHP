@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 
 --
 -- Cơ sở dữ liệu: `phonestore`
-CREATE DATABASE PhoneStore;
+
+-- CREATE DATABASE PhoneStore;
 USE PhoneStore;
 
 --
